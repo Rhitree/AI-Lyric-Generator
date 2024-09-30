@@ -22,23 +22,6 @@
   <body>
     <div class="container">
       <header>
-        <h1>AI Lyric Generator</h1>
-      </header>
-      <main>
-        <form id="lyric-generator">
-          <input
-            type="text"
-            placeholder="   Enter lyrics here"
-            autofocus
-            required
-            class="search-bar"
-            id="search-bar"
-          />
-          <input type="submit" class="search-button" id="search-button" />
-        </form>
-      </main>
-      <div class="lyrics" id="lyrics"></div>
-      <footer>
         This project was coded by
         <a href="https://github.com/Rhitree" target="_blank">Rhian Jenkins</a>
         & is open-sourced on
@@ -47,7 +30,24 @@
         >
         hosted on
         <a href="https://lazy-lyrics.netlify.app/" target="_blank">Netlify.</a>
-      </footer>
+      </header>
+      <h1>AI Lyric Generator</h1>
+      <main>
+        <form id="lyric-generator">
+          <input
+            type="text"
+            placeholder="   Enter keyword here"
+            autofocus
+            required
+            class="search-bar"
+            id="search-bar"
+          />
+          <input type="submit" class="search-button" id="search-button" />
+        </form>
+      </main>
+    </div>
+    <div class="lyric-results">
+      <div class="lyrics" id="lyrics">Your custom lyrics will appear here</div>
     </div>
     <script src="src/script.js"></script>
   </body>
