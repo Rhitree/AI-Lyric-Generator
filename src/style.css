@@ -24,7 +24,7 @@ input {
     color:#301928;
 }
 
-.input {
+.search-bar {
     border: none;
     padding: 5px;
     width: 50%;
@@ -32,7 +32,7 @@ input {
     border-radius: 30px;
 }
 
-.button {
+.search-button {
     background-color: #FF6A71;
     border: none;
     padding: 5px;
