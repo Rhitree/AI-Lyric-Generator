@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Lyric Generator</title>
   </head>
@@ -36,18 +37,18 @@
         <form id="lyric-generator">
           <input
             type="text"
-            placeholder="   Enter keyword here"
+            placeholder=" What would you like your song to be about?"
             autofocus
             required
             class="search-bar"
-            id="search-bar"
+            id="user-instructions"
           />
           <input type="submit" class="search-button" id="search-button" />
         </form>
       </main>
     </div>
     <div class="lyric-results">
-      <div class="lyrics" id="lyrics">Your custom lyrics will appear here</div>
+      <div class="lyrics" id="lyrics"></div>
     </div>
     <script src="src/script.js"></script>
   </body>
