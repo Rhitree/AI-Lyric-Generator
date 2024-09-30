@@ -2,3 +2,13 @@ h1 {
 text-align: center;
 color: darkorange;
 }
+
+main {
+    display: block;
+    text-align: center;
+    padding: 20px;    
+}
+
+footer {
+    text-align: center;
+}
