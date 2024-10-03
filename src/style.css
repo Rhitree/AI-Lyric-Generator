@@ -1,9 +1,13 @@
+html {
+    background: radial-gradient(848px at 10% 20%, rgba(174, 231, 165, 0.9) 0%, rgb(181, 205, 154) 90%);
+}
+
 .container {
     background-color: #FEF5DA;
     color:#301928;
     box-shadow: -10px 10px 0px rgb(117, 24, 52), -20px 20px 0px rgba(250, 87, 94), -30px 30px 0px rgba(254, 174, 174);
     width: 650px;
-    margin: 120px auto;
+    margin: 50px auto;
     border-radius: 30px;
     font-family: "Ubutu", sans-serif;
     font-weight: 900;
@@ -51,6 +55,7 @@ input {
     width: 20%;
     line-height: 30px;
     border-radius: 30px;
+        font-family: "Ubutu", sans-serif;
 }
 
 main {
@@ -59,11 +64,15 @@ main {
     padding: 20px;    
 }
 
-.lyric-results {
+.hidden {
+    display: none;
+}
+
+.lyrics{
     background-color: #FEF5DA;
     color: #301928;
     width: 610px;
-    margin: 120px auto;
+    margin: 50px auto;
     font-family: "Ubutu", sans-serif;
     font-weight: 900;
     font-style: normal;
